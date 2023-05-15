@@ -1,1 +1,1 @@
-Aula 04 ~ 06 = String e Number
+Aula 04 ~ 06 = Manipulação de dados
