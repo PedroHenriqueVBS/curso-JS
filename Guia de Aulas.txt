@@ -3,3 +3,5 @@ Aula 04 ~ 06 = Manipulação de dados
 Aula 09 = Seletores
 
 Aula 10 = Função
+
+Aula 11 ~ 12 = Condições simples, compostas, aninhadas e multiplas. Switch.
