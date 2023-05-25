@@ -5,3 +5,5 @@ Aula 09 = Seletores
 Aula 10 = Função
 
 Aula 11 ~ 12 = Condições simples, compostas, aninhadas e multiplas. Switch.
+
+Aula 14 = Repetições e depuração

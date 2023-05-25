@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(49, 120, 212);
+}
+
+header{
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: auto;
+}
+
+div {
+    font-size: 1.5em;
+    
+    
+    text-align: left;
+    margin: auto;
+    padding-left: 10px;
+}
+
+input {
+    margin: 5px;
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+}
