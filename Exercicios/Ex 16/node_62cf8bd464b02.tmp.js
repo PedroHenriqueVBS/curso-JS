@@ -8,8 +8,7 @@ var Fim = 5
 var Passo = 2
 
 while (Inicio <= Fim) {
-    Inicio + Passo 
-    console.log(Inicio)
+    console.log(Inicio+Passo)
 } if ( Inicio > Fim) {
     console.log('cabo')
 }
