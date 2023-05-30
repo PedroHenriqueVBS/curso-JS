@@ -1,19 +1,28 @@
-/*var Inicio = document.getElementById('inicio')
-var Fim = document.getElementById('fim')
-var Passo = document.getElementById('passo')
-var res = document.getElementById('res')
-*/
-var Inicio = 1
-var Fim = 5
-var Passo = 2
+function contar() {
+    var ini = document.getElementById('inicio')
+    var fim = document.getElementById('fim')
+    var passo = document.getElementById('passo')
+    var res = document.getElementById('res')
 
-while (Inicio <= Fim) {
-    Inicio + Passo 
-    console.log(Inicio)
-} if ( Inicio > Fim) {
-    console.log('cabo')
+    if ( ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+        window.alert('ERRO')
+    } else {
+        res.innerHTML = 'Contando '
+        let i = Number(ini.value)
+        let f = Number(fim.value)
+        let p = Number(passo.value)
+          
+        if ( i < f) {
+            for ( var c = i; c <= f; c += p) {
+            res.innerHTML += `${c} \u{1F449} `
+        }
+        
+        } else {
+            for ( var c = i; c >= f; c -= p) {
+                res.innerHTML += `${c} \u{1F449} `
+            }
+
+        }
+        
+    } res.innerHTML += `\u{1F3C1}`
 }
-
-    
-
-
